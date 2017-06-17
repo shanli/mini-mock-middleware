@@ -1,0 +1,25 @@
+{
+  "name": "mock-middleware-webpack",
+  "version": "1.0.8",
+  "description": "一个用于本地mock假数据的express中间件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pp": "npm version patch & npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shanli/mock-middleware-webpack.git"
+  },
+  "keywords": [
+    "mock"
+  ],
+  "author": "shanli1115@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "http-proxy-middleware": "^0.17.3",
+    "jsonfile": "^2.4.0",
+    "lodash": "^4.17.2",
+    "query-string": "^4.2.3"
+  }
+}
